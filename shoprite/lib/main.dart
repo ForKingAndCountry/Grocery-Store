@@ -56,8 +56,51 @@ class _MyAppState extends State<MyApp> {
                                 ),
                                 SizedBox(height: 150.0,),
                                 Container(
-                                  child: Text('Welcome'),
-                                )
+                                  child: Text('Welcome!', style: TextStyle(
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.bold,
+                                  ),),
+                                ),
+                                SizedBox(height:20.0),
+
+                                Container(
+                                  height: 50.0,
+                                  width: 200.0,
+                                  decoration: BoxDecoration(
+                                    color: const Color.fromARGB(255, 16, 124, 20),
+                                    borderRadius: BorderRadius.circular(30.0),
+                                  ),
+                                child: Center(
+                                  child: Text('Sign in', style: TextStyle(
+                                    color: Colors.white,
+                                  ),
+                                  // textAlign: TextAlign.center,
+                                                                  ),
+                                ),
+                                ),
+
+                                SizedBox(height:20.0),
+
+                                Container(
+                                  height: 50.0,
+                                  width: 200.0,
+                                  decoration: BoxDecoration(
+                                     
+                                    border: Border.all(
+                                      color: const Color.fromARGB(255, 16, 124, 20),
+                                      width: 2.0,
+                                      style: BorderStyle.solid,
+                                    ),
+                                    borderRadius: BorderRadius.circular(30.0),
+                                  ),
+                                child: Center(
+                                  child: Text('Sign up', style: TextStyle(
+                                    color: Color.fromARGB(255, 3, 150, 8),
+                                  ),
+                                  // textAlign: TextAlign.center,
+                                                                  ),
+                                ),
+                                ),
               ],
             ),
           ),
